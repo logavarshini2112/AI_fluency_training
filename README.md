@@ -1,28 +1,26 @@
-## Day 4 – GPU, VRAM & Model Memory
+# AI Learning Basics
 
-### Topics Learned
-- CPU vs GPU
-- GPU Cores
-- Types of GPU
-- VRAM
-- Context Window
-- Context Length
-- AI Model Parameters
-- Quantization
-- Q4 and Q4_K_M
-- Basic VRAM Estimation
+This section contains the basic concepts I am currently learning in Artificial Intelligence and AI Agents.
 
-### Practical
-Created `vram_estimate.py` to understand and estimate AI model memory requirements.
+## Topics I Am Learning
 
-### Example
-For a 1.5B parameter model with Q4 quantization:
+* What is Artificial Intelligence?
+* What is an AI model?
+* What is an LLM?
+* What is an AI Agent?
+* Difference between a chatbot and an AI agent
+* What are tools in AI agents?
+* What is an API?
+* What is a REST API?
+* How an AI application communicates with a model
+* Basic Python concepts used in AI projects
+* Working with API keys and `.env` files
+* Basic request and response handling
+* Understanding JSON
+* Basic model input and output
 
-1.5B × 4 / 8 ≈ 0.75 GB
+## Learning Approach
 
-With quantization overhead, the model weight memory is approximately 0.8 GB.
+I am learning these concepts from the basics and building small practical examples step by step.
 
-### Key Learning
-GPU is useful for parallel AI computations, while VRAM stores the model weights and other data required during AI inference.
-
-Context length represents the amount of token-based information a model can handle at one time. Longer context generally requires more memory.
+The goal is to understand **what each concept is, why it is used, and how it works in a real AI application** before moving to advanced topics.
